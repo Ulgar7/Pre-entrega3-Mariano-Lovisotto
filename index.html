@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrito de Compras</title>
+</head>
+<body>
+  <h1>Carrito de Compras</h1>
+  <div id="productos">
+    <h2>Productos Disponibles:</h2>
+    <ul>
+      <li>
+        <span>Musculosa de los warriors - $1000</span>
+        <input type="number" min="1" value="1">
+        <button class="agregar-btn">Agregar al Carrito</button>
+      </li>
+      <li>
+        <span>Pantalon de los warriors - $1500</span>
+        <input type="number" min="1" value="1">
+        <button class="agregar-btn">Agregar al Carrito</button>
+      </li>
+      <li>
+        <span>Musculosa de los Cavalierss - $1000</span>
+        <input type="number" min="1" value="1">
+        <button class="agregar-btn">Agregar al Carrito</button>
+      </li>
+    </ul>
+  </div>
+
+  <div id="carrito">
+    <h2>Carrito:</h2>
+    <ul id="carrito-lista">
+      <!-- Elementos del carrito se añadirán aquí -->
+    </ul>
+    <p>Total: $<span id="total">0</span></p>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
